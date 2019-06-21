@@ -1,5 +1,7 @@
 Guthwulf_Badlands_collection.JSON file is a 5etools compatible homebrew collection for the Badlands discord server.
 
+Written by: beckswithspecks
+
 Setup is done in one of two ways:
 
 A) By uploading the file to 5etools
