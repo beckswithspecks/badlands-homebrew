@@ -8,11 +8,11 @@
                 "guthwulf"
             ],
             "convertedBy": [
-					"beckswithspecks"
-				],
-            "version": "1.0.0",
+                "beckswithspecks"
+            ],
+            "version": "1.1.0",
             "url": "https://www.worldanvil.com/w/the-badlands-ncguthwulf",
-            "targetSchema": "1.0.0"
+            "targetSchema": "1.1.0"
         }],
         "dateAdded": 0
     },
@@ -9481,6 +9481,409 @@
                     }
                 ]
             }
+        }
+    ],
+    "deity": [
+        {
+            "name": "Igna",
+            "title": "Goddess Of Light, Fire, The Phoenix, Defeat And Rebirth",
+            "pantheon": "The Nine",
+            "symbol": "a flame, a phoenix",
+            "source": "Badlands",
+            "domains": [
+                "Light",
+                "Grave"
+            ],
+            "customProperties": {
+                "Domains": "{@class cleric|phb|Light|Light Domain}, {@class cleric|xge|Grave|Grave Domain}"
+            },
+            "entries": [
+                "She was dead, now returned to life. A cult, known as the Unadorned Ones or Radiant Ones stole Igna’s soma and created their own religion. She was reborn when her champion killed the avatar of the Radiant Ones in the autumn of G26 (24 years ago). Now Igna once again brings fire and light to those that pray to her. Her time in torpor brought her close to death giving her insight past the grave. Unlike the titans, the relentless destroyers, Igna's fire burns away the old to make way for the new.",
+
+                "Followers of Igna are commonly passionate about a cause. They are missionaries with specific goals in mind. They are famous for being willing to *burn* away the old to allow them to accomplish the new. This is done in the name of Igna and the greater good.",
+
+                "Cleric's of Igna are fierce on the battlefield. The more adept ones can hurl balls of fire that destroy the morale of the enemy. These clerics are known for their bright armour and shields as well as their colourful robes. They most often use yellows, oranges and reds.",
+
+                "The phoenix is often associated with Igna."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "The Nine",
+            "name": "Fekwen",
+            "title": "Goddess Of Mercantilism",
+            "domains": [
+                "Knowledge",
+                "Forge",
+                "Order"
+            ],
+            "symbol": "The signatorius, a small piece of metal stamped with your name and your trade",
+            "customProperties": {
+                "Domains": "{@class cleric|phb|Knowledge|Knowledge Domain}, {@class cleric|xge|Forge|Forge Domain}, {@class cleric|ggr|Order|Order Domain}"
+            },
+            "entries": [
+                "Fekwen promotes and protects the mercantile venture. Honesty and competition are best virtues. Profit is most desirable. All followers of Fekwen, and merchants of repute, carry a signatorius, a document that identifies where they are from, what they trade in and their names. Fekwen guides the virtuous away from gambling and vice.",
+
+                "Followers of Fekwen often display their signatorius openly, wearing it like a necklace or amulet. They are often merchants or traders. Many are also teachers that work for a commission. The most successful followers are reliable, honest and know when to profit from an opportunity and when to show respect and not try to profit.",
+
+                "The fallen kingdom of Alt Walav was governed by wise and powerful nobles and followers of the goddess of the deal. They often protected the interests of the individual merchant and created a path to success and riches for the entrepreneur.",
+
+                "The nomadic desert tribes of dark elves often contain a priest or two of Fekwen, as trade is integral to their survival. Some of these faithful are arbiters of law, and are sought by the clans to settle disputes both internal and external."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "The Nine",
+            "name": "Mythral & Kordda",
+            "title": "Twin Gods Of Battle, Honourable And Dishonourable, Open Conflict And Guerrilla Warfare",
+            "domains": [
+                "War",
+                "Trickery"
+            ],
+            "symbol": "For those that favor Mythral over Kordda, a silver shield with an upward pointing dagger. For those that favor Kordda over Mythral, a black dagger, point down, over a shield.",
+            "customProperties": {
+                "Domains": "{@class cleric|phb|War|War Domain}, {@class cleric|phb|Trickery|Trickery Domain} "
+            },
+            "entries": [
+                "Mythral is revered by soldiers and generals. Mythral believes in ritually declaring war upon enemies, wearing regalia and using established military tactics. Battle is a religious activity. It should be regarded as such and bringing dishonour upon yourself is a great sin. Mythral's twin has taught him that he must anticipate dishonourable acts. Followers of Mythral choose the higher path.",
+
+                "Kordda is revered by assassins and brawlers. The consequence of battle is what is important. Arrive at victory by any means necessary. Stealth and cunning are to be used for one's advantage. Kordda is not necessarily viewed as evil by all. Many would agree on the term distasteful.",
+
+                "Most of the temples of Mythral are also schools of combat: wrestling schools, mounted combat academies, archery ranges and so on. The temples to Kordda often test the visitors ability to discern their true nature. They may be hidden in plane sight as a tavern or concealed behind hidden doors and tunnels."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "The Nine",
+            "name": "Thillidan",
+            "title": "God Of Mysteries, Oceans, Where The Eye Cannot See",
+            "domains": [
+                "Tempest",
+                "Knowledge"
+            ],
+            "symbol": "A purple field with waves and octopus tentacles emerging from the depths",
+            "customProperties": {
+                "Domains": "{@class cleric|phb|Tempest|Tempest Domain}, {@class cleric|phb|Knowledge|Knowledge Domain"
+            },
+            "entries": [
+                "The ocean is the unknown, maybe unknowable. To search the depths is to seek out the mysteries of the universe. When one understands the tide, the undercurrents and the deep, one understand the source of all creation. The gods, titans and dragons came from the depths. Thillidan treasures secrets, always pursuing the mysterious.",
+
+                "Thillidan is loyal to the Nine and does not simply horde knowledge. Unused, knowledge is wasteful or simply vain. He is often called upon by the other gods to reveal the secret weaknesses of a particular foe. The Titans hate Thillidan for he often knows their faults and the magic necessary to counter their destructive ways. Hex'a'grum, Titan of Shadows, in particular despises when his secret machinations are revealed by the god of knowledge and mystery.",
+
+                "A sect within the religion, known as Seekers of Truth, are rumoured to hold vast troves of knowledge of all types in a magical library. They travel the world for secrets to add to the archives."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "The Nine",
+            "name": "Ghem Under The Mountain",
+            "title": "God Of Mountains, Gems, Diamonds, Iron, And Strength",
+            "domains": [
+                "Light",
+                "Life",
+                "Forge"
+            ],
+            "symbol": "A shield with a hammer on it or a mountain with a crown of jewels",
+            "customProperties": {
+                "Domains": "{@class cleric|phb|Light|Light Domain}, {@class cleric|phb|Life|Life Domain}, {@class cleric|xge|Forge|Forge Domain} "
+            },
+            "entries": [
+                "Adoptive father of the dwarves. Ghem embodies strength. His virtues include working the forge, the brewing of ale, smashing of stone and rock and other feats of strength. Ghem is known for applying strength as a solution to all problems.",
+
+                "The Hammerers, formerly of the kingdom of Thorria, are an order of dwarven paladins that destroy undead and fiends."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "The Nine",
+            "name": "Liisa The Bountiful One",
+            "title": "Goddess Of The Hearth, Bounty, Wheat And Corn, The Mill, Fish",
+            "domains": [
+                "Life",
+                "Nature"
+            ],
+            "symbol": "Liisa's symbol changes from place to place, and is often the most bountiful source of food in the region. In the Badlands, Liisa's symbol is the Corino river and a fish.",
+            "customProperties": {
+                "Domains": "{@class cleric|phb|Life|Life Domain}, {@class cleric|phb|Nature|Nature Domain}",
+                "Pronounciation": "Luh-eye-sah"
+            },
+            "entries": [
+                "The bounty, the harvest, the catch, and the herd are all protected by Liisa the giver of food. The hearth and warmth are associated with Liisa. It is not uncommon to have small figurines of Liisa near where a family will eat together. Liisa keeps one disease free and hale and hearty. Liisa is also prayed to for growth and fertility."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "The Nine",
+            "name": "Busana Of The Moon",
+            "title": "Goddess Of The Hunt, Poetry, Displays Of Virtue",
+            "domains": [
+                "Life",
+                "Nature"
+            ],
+            "symbol": "An amulet of the moons showing one waxing and one waning moon.",
+            "customProperties": {
+                "Domains": "{@class cleric|phb|Life|Life Domain}, {@class cleric|phb|Nature|Nature Domain}",
+                "Pronounciation": "Boo-sah-nah"
+            },
+            "entries": [
+                "Busana is the master of the hunt as virtue. The hunt is not necessarily about food. One can hunt demons or outlaws. It is the practice, the mastery, the execution of the hunt that concerns Busana. In the moment of death, if Busana is honored, the spirit of the prey is taken and reborn as something or someone virtuous. This replenishes food prey or gives the vile a chance to be redeemed. The moment of death is poetry. Busana’s priests often write about death and her artists depict the kill in their work. Pella and Priad, the dead gods that are now the moons, only glow by Busana’s virtue. She illuminates the path of the nocturnal hunter. Busana values mithril, using the magical metal for decoration and weapons. Established temples have master bowyers that craft the best mithril arrowheads."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "The Nine",
+            "name": "The Jackal Of Death",
+            "title": "Goddess Of Death, The Destruction Of Undead",
+            "domains": [
+                "Death",
+                "Grave"
+            ],
+            "symbol": "The black mask of a jackal",
+            "customProperties": {
+                "Domains": "{@class cleric|phb|Death|Death Domain|dmg}, {@class cleric|xge|Grave|Grave Domain}"
+            },
+            "entries": [
+                "In ancient times the Jackal of Death was even feared by the gods themselves. It was said that none could escape her grasp. Rhion changed all of that. He promised immortality to the Great Dragons in exchange for knowledge of Magic and tricked the Jackal into granting it. This infuriated the Jackal and drove her mad for a time.",
+
+                "It is said that during this time Vorgoth'a'grum the destroyer whispered in her ear. They entered a terrible alliance and created the Demon Helm. It wrought two plagues upon the land. At the climax of the second one, some 20 or so years ago, a band of adventurers broke the bond between the Jackal and the Helm. She was returned to the pantheon and welcomed back after a great tribunal.",
+
+                "The Jackal of Death shepherds the faithful dead to the Aetherial, keeping them clear of dangers. Her packs roam both the material plane and the aetherial plane destroying the undead. The Jackal is furious at Vorgoth for fooling her and trapping a great deal of her spirit in the Demon Helm for centuries. The faithful seek retribution for their goddess.",
+
+                "The Jackal encourages each species to hold their own traditions around death as long as they respect her guidance: all must die, all must be put to rest and any precautions necessary should be taken to avoid undeath. A tradition widely upheld in the Badlands is that of the Harpa Ring. This is an ear ring that signifies loyalty to the Jackal. If a corpse is found wearing this ring it is the duty of the faithful to bury them."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "The Nine",
+            "name": "Rhion",
+            "title": "Trickster God",
+            "domains": [
+                "Trickery",
+                "Arcana"
+            ],
+            "symbol": "A ribbon or scarf",
+            "customProperties": {
+                "Domains": "{@class cleric|phb|Trickery|Trickery Domain}, {@class cleric|scag|Arcana|Arcana Domain}"
+            },
+            "entries": [
+                "To show the truth through illusion and trickery. Find the indirect path to your goal. When the gods grew angry at the mortals and jealously guarded their magic Rhion painted the night sky with the blueprint for arcane magic. The constellations themselves align to the 8 schools of magic. Anyone gifted enough to wrestle with the mysteries in the stars can learn magic. The gods hated Rhion for giving away magic to the world. To make up for it, he tricked Lady Death into making the gods truly immortal and unkillable. And once again Rhion was in favor. And so it goes, over and over, tricking and antagonizing the gods, dragons and old titans only to eventually appease them with some clever restitution."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Dead Gods",
+            "name": "The Twin Moons Pella And Priad",
+            "title": "The Dead Gods, Defenders of the Material Plane",
+            "symbol": "Two overlapping circles",
+            "customProperties": {
+                "Domains": "None"
+            },
+            "entries": [
+                "The moons are the bodies of the dead gods Pella and Priad. It is said that they were first to fight Vorgoth the destroyer titan when he stole the soma of Lady Death and made the destroyer helm plague that nearly ended us all."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Minor Gods",
+            "name": "Circane",
+            "title": "God Of Storms, Thunder, Sky, Birds Of Prey",
+            "domains": [
+                "Tempest"
+            ],
+            "symbol": "A dark cloud with a lightning bolt",
+            "customProperties": {
+                "Domains": "{@class cleric|phb|Tempest|Tempest Domain}",
+                "Pronounciation": "SUR-kain"
+            },
+            "entries": [
+                "Circane’s nature reflects that of the sky itself. Open and inviting one moment, but in the blink of an eye it can transform into a foreboding, dangerous maelstrom. His impetuous nature carries into his chosen animal, the falcon. It soars above the world on currents of wind but can strike with no warning. Travelers and farmers often pray or make offerings to this minor god, hoping to stop his wrath from acting against them. However, dark and stormy Circane can turn on even the most ardent follower at a moment’s notice."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Minor Gods",
+            "name": "Lutu",
+            "title": "God Of Mushrooms, Caves, Tunnels Created By Water",
+            "domains": [
+                "nature"
+            ],
+            "symbol": "A mushroom",
+            "customProperties": {
+                "Domains": "{@class cleric|phb|Nature|Nature Domain}"
+            },
+            "entries": [
+                "This small god once entered into a competition with Ghem to dig the most vast cave network. Ghem used strength and Lutu used water. He won, because water was tireless. Ghem and Lutu do not like each other."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Minor Gods",
+            "name": "Wullo",
+            "title": "God Of Cats, Exploring Uninvited Places",
+            "domains": [
+                "Trickery",
+                "Knowledge"
+            ],
+            "symbol": "A portal with a cat eye peering through",
+            "customProperties": {
+                "Domains": "{@class cleric|phb|Trickery|Trickery Domain}, {@class cleric|phb|Knowledge|Knowledge Domain}"
+            },
+            "entries": [
+                "The Cat Lord is known for appear where unwelcome and finding out secrets he was never meant to. It is very uncommon to see worship of this feline deity outside of the Tabaxi communities. When the Car Lord's minions come to a community people tend to double check that they have locked their strongboxes. The Cat Lords minions are less interested in stealing objects, they are after secret knowledge.",
+
+                "It is worth mentioning that the Cat Lord is also a consummate predator, capable of bringing down his foes with weapons and claws. There is a sect of Wullo devotees that hunt for knowledge in forgotten crypts and barrows overcoming the traps and monsters that guard them."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Minor Gods",
+            "name": "Idite",
+            "title": "Goddess Of Nomads, Pastoralists, Deserts, Sheep & Goats",
+            "domains": [
+                "Light",
+                "Nature"
+            ],
+            "symbol": "A shepherd's crook over a solar disk",
+            "customProperties": {
+                "Domains": "{@class cleric|phb|Light|Light Domain}, {@class cleric|phb|Nature|Nature Domain}"
+            },
+            "entries": [
+                "The Zuhayre clan, as well as a few offshoots that intermarry with their expatriates, worship an exarch of Liisa as their common ancestor and patron saint. Idite Zuhayre appears as an elderly dark elf woman, wearing simple robes and carrying a shepherd’s crook of polished, many-colored glass. It is believed that in the early days of the world, she wrangled the great golden goat in the sky and now leads it across in an orderly progression of seasons."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Minor Gods",
+            "name": "Alira",
+            "title": "Goddess Of The Songbird, Keeper Of Lost Songs",
+            "domains": [
+                "Life"
+            ],
+            "symbol": "A small songbird",
+            "customProperties": {
+                "Domains": "{@class cleric|phb|Life|Life Domain}"
+            },
+            "entries": [
+                "Dark elves that are taken as slaves are often prohibited from singing. Not only does this hamper personal and spiritual growth by not being able to sing one’s life song, it also causes a dark elf to slowly lose hold on their family history, traditions, and sense of belonging. It is said that Alira Torar would change shape into a small desert songbird, listening to the songs whispered in the night by captive peoples. She collected songs from different tribes and would flit from town to town carrying the songs of the dark elves on the wind, bringing them hope. Many dark elves that escaped from bondage would travel back to their homeland only to find their tribes had moved on. Guided by visions of songbirds calling to them with familiar tunes, these people without a clan bound together as their own clan under the name Torar. To this day, those without a family for whatever reason stumble upon a welcoming group of Torar by way of a bird, and are brought into the flock. Calling themselves the SongKeepers, the Torar clan seeks to emulate the deeds of their ancestor. They are a scattered tribe that travels amongst merchant towns and nomadic tribes alike, collecting and performing life songs, traditions, and family histories. In this way they strive to inspire hope and make sure that no one is forgotten."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Minor Gods",
+            "name": "Panaar",
+            "title": "God Of Retribution. Also Known As The Shadow Of Tyrants.",
+            "domains": [
+                "Trickery"
+            ],
+            "symbol": "A black coin",
+            "customProperties": {
+                "Domains": "{@class cleric|phb|Trickery|Trickery}"
+            },
+            "entries": [
+                "Panaar is a god to the downtrodden and the underdog. He values the just treatment of people, and his name is invoked by those who seek retribution for abuse. A slave might pray to Panaar for their master to mysteriously fall ill, or a group of labourers might rise against their foreman for stealing their wages. A populace might pray for release from the tyranny of a cruel king, and one day wake up to find that he has been poisoned.",
+
+                "Worshippers of Panaar often pay for retributive acts with a single black coin amongst real ones. Over time, this symbol has become broadly emblematic of Panaar. In larger cities, covert methods such as the passing of a black coin are used to avoid detection by those who have good reason to fear Panaar’s wrath."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Minor Gods",
+            "name": "Eterna",
+            "title": "Goddess Of Immortality, Balm Against Death",
+            "symbol": "Three waves or three circles or three dots on a plane field",
+            "customProperties": {
+                "Domains": "Unknown"
+            },
+            "entries": [
+                "Eterna is a mystery. She is spoke about in stories and myths but no one is known to actively worship her. Monuments honoring this god have been seen in the cursed city of Byzaza. It is not coincidence that the powerful residents are now all immortal mummies."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Titans",
+            "name": "Vorgoth’grum",
+            "title": "The Ancient Titan Of Decay, Godkiller",
+            "entries": [
+                "In nature, plants decay and become one with the soil. They fertilize the ground and new plants grow. Vorgoth is decay alone, a break in the cycle of life, true death. When Vorgoth destroys a being its spirit is cut from the cycle and consumed by the ancient horror.",
+
+                "Vorgoth is often depicted as a massive entity, impossible to see completely with slippery shadow tentacles whipping in all directions. Of all of the titans, Vorgoth is the most capable of breaching into the world. He frequently grants powers to followers, both Old One Warlocks and Clerics that choose to follow the titan.",
+
+                "It is said that Vorgoth killed the gods Pella and Priad while rampaging and trying to destroy Morra. He was repelled by the other gods but not before planting the seed of decay in The Jackal’s mind. A sick union of the two, Vorgoth and The Jackal, led to the creation of the Demon Helm crisis."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Titans",
+            "name": "Hex'a'grum",
+            "title": "The Ancient Titan Of Shadow Magic",
+            "entries": [
+                "Hex - To cast a spell, or bewitch.",
+
+                "The ancient titan Hex’a’grum is the root of the word hex. He uses shards of shadow magic to pierce the hearts of his foes and bewitch them, corrupting them to his will. He speaks in whispers. He passes through the dark places in the material plane and through the dark places in his victim’s minds.",
+
+                "Hex is the least obvious of the titans, eschewing the blunt and obvious tactics of his brothers and sisters. And as such, Hex is the most ever present on the material plane. They say that Hex can pull the spirit of one he has corrupted from their body the moment before death and guide them to his part of the Aetherial plane, consuming his victim for power, or perhaps storing them for some later purpose.",
+
+                "Shadow beings and shadow weapons may not all be the servants of Hex, but they can all trace their origins back to him. There are legends of armies of shadows conjured out of thin air to savage those that betray an pact to Hex.",
+
+                "Warlocks with the Hexblade Patron have entered a bond with this mighty Shadow Titan."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Titans",
+            "name": "Carriba’grum",
+            "title": "The Ancient Titan Of Cannibalism",
+            "entries": [
+                "Cannibalism is to eat the flesh of one’s own race. Cannibalism is reviled in most cultures because it alerts Carriba to your darkest hungers and desires. Carriba promises power to those that continue to eat and corrupts the spirit to become addicted to flesh.",
+
+                "Carriba is often visualized as a small woman with a almost comically large mouth filled with rows of razor shark teeth.",
+
+                "Cannibalism is a serious problem in the Badlands. In some regions, notable the swamp near New Hope, there are entire cannibal cultures openly hunting and eating their own kind"
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Titans",
+            "name": "Miser’a’grum",
+            "title": "The Ancient Titan Of Misery, Dark Places, Being Dragged Underground, Collapse, Cave Ins, and Avalanches",
+            "entries": [
+                "The ancient titan Miser’a’grum lives under the world in the Deep Below. Her true disciples are driders. She is the essence of being dragged down into the dark depths of the earth and killed… by a collapse or cave in, by an avalanche or other catastrophe. She also enjoys suffocating her prey."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Titans",
+            "name": "Des'a'Grum",
+            "title": "The Titan Of Poison And Pollution",
+            "entries": [
+                "The mortal enemy of Liisa, Des poisons and pollutes the world, making it barren and lifeless. Whether buried under lava, drowned in toxic gases, or frozen solid, Des’s power creates a land so hostile that nothing can survive. Some say the Badlands themselves were cursed by Des long ago.",
+
+                "Des’s mortal followers are those so barren of empathy that they will happily condemn others to a slow death for selfish reasons. Few of its cultists understand Des’s true nature. Its creations are bizarre, half living aberrations that bear no resemblance to the natural living inhabitants of Morra. Their mad gibberings bring visions of yawning vistas devoid of life, a cosmos with no place left for the fragile flesh of our kind."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Titans",
+            "name": "Anim’a’grum",
+            "title": "The Ancient Titan Of Corrupted Souls, The Soul Collector",
+            "entries": [
+                "Anim’a’grum, commonly known as Animus, is a collector of souls. He seeks to extinguish life, and use those souls to act as agents to collect more.",
+
+                "He is commonly depicted as a massive, corpulent creature, so full on his bounty of the eternal essences of the once living. His servants do his bidding, both in his home in the Aetherial as well as in world of the living.",
+
+                "Necromancers and intelligent undead are often servants of this dark creature and many cults have sprung up throughout time that serve him."
+            ]
+        },
+        {
+            "source": "Badlands",
+            "pantheon": "Titans",
+            "name": "Aentroph'a'grum",
+            "title": "The Ancient Titan Of Chaos And Change",
+            "entries": [
+                "Aentroph'a'grum views the world and its natural order as a mistake, especially civilization. He seeks to destroy everything and twist reality into a reflection of his own whims, similar to his domain on the Amalgoreal plane. He has few minions in the world that serve him knowingly, but many less intelligent beings may be duped by one of his extraplanar followers into carrying out his will. They work to destroy small parts of the world through sowing mistrust among allies, breaking down societies, and wanton destruction.",
+
+                "He is commonly depicted as a amoeba with a brain as the nucleus and his domain on the Amalgoreal shifts shape according to his whims, often made up of interlocking spheres or areas with impossible geometry, but just as likely to look like a rough-hewn cavern or a ruined marble palace."
+            ]
         }
     ]
 }
