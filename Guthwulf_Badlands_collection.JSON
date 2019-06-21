@@ -9490,6 +9490,9 @@
             "pantheon": "The Nine",
             "symbol": "a flame, a phoenix",
             "source": "Badlands",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "Light",
                 "Grave"
@@ -9512,6 +9515,9 @@
             "pantheon": "The Nine",
             "name": "Fekwen",
             "title": "Goddess Of Mercantilism",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "Knowledge",
                 "Forge",
@@ -9536,13 +9542,16 @@
             "pantheon": "The Nine",
             "name": "Mythral & Kordda",
             "title": "Twin Gods Of Battle, Honourable And Dishonourable, Open Conflict And Guerrilla Warfare",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "War",
                 "Trickery"
             ],
             "symbol": "For those that favor Mythral over Kordda, a silver shield with an upward pointing dagger. For those that favor Kordda over Mythral, a black dagger, point down, over a shield.",
             "customProperties": {
-                "Domains": "{@class cleric|phb|War|War Domain}, {@class cleric|phb|Trickery|Trickery Domain} "
+                "Domains": "{@class cleric|phb|War|War Domain}, {@class cleric|phb|Trickery|Trickery Domain}"
             },
             "entries": [
                 "Mythral is revered by soldiers and generals. Mythral believes in ritually declaring war upon enemies, wearing regalia and using established military tactics. Battle is a religious activity. It should be regarded as such and bringing dishonour upon yourself is a great sin. Mythral's twin has taught him that he must anticipate dishonourable acts. Followers of Mythral choose the higher path.",
@@ -9557,6 +9566,9 @@
             "pantheon": "The Nine",
             "name": "Thillidan",
             "title": "God Of Mysteries, Oceans, Where The Eye Cannot See",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "Tempest",
                 "Knowledge"
@@ -9578,6 +9590,9 @@
             "pantheon": "The Nine",
             "name": "Ghem Under The Mountain",
             "title": "God Of Mountains, Gems, Diamonds, Iron, And Strength",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "Light",
                 "Life",
@@ -9598,6 +9613,9 @@
             "pantheon": "The Nine",
             "name": "Liisa The Bountiful One",
             "title": "Goddess Of The Hearth, Bounty, Wheat And Corn, The Mill, Fish",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "Life",
                 "Nature"
@@ -9616,6 +9634,9 @@
             "pantheon": "The Nine",
             "name": "Busana Of The Moon",
             "title": "Goddess Of The Hunt, Poetry, Displays Of Virtue",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "Life",
                 "Nature"
@@ -9634,6 +9655,9 @@
             "pantheon": "The Nine",
             "name": "The Jackal Of Death",
             "title": "Goddess Of Death, The Destruction Of Undead",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "Death",
                 "Grave"
@@ -9657,6 +9681,9 @@
             "pantheon": "The Nine",
             "name": "Rhion",
             "title": "Trickster God",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "Trickery",
                 "Arcana"
@@ -9675,6 +9702,12 @@
             "name": "The Twin Moons Pella And Priad",
             "title": "The Dead Gods, Defenders of the Material Plane",
             "symbol": "Two overlapping circles",
+            "alignment": [
+                "any"
+            ],
+            "domains": [
+                "None"
+            ],
             "customProperties": {
                 "Domains": "None"
             },
@@ -9687,6 +9720,9 @@
             "pantheon": "Minor Gods",
             "name": "Circane",
             "title": "God Of Storms, Thunder, Sky, Birds Of Prey",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "Tempest"
             ],
@@ -9704,6 +9740,9 @@
             "pantheon": "Minor Gods",
             "name": "Lutu",
             "title": "God Of Mushrooms, Caves, Tunnels Created By Water",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "nature"
             ],
@@ -9720,6 +9759,9 @@
             "pantheon": "Minor Gods",
             "name": "Wullo",
             "title": "God Of Cats, Exploring Uninvited Places",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "Trickery",
                 "Knowledge"
@@ -9739,6 +9781,9 @@
             "pantheon": "Minor Gods",
             "name": "Idite",
             "title": "Goddess Of Nomads, Pastoralists, Deserts, Sheep & Goats",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "Light",
                 "Nature"
@@ -9756,6 +9801,9 @@
             "pantheon": "Minor Gods",
             "name": "Alira",
             "title": "Goddess Of The Songbird, Keeper Of Lost Songs",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "Life"
             ],
@@ -9772,6 +9820,9 @@
             "pantheon": "Minor Gods",
             "name": "Panaar",
             "title": "God Of Retribution. Also Known As The Shadow Of Tyrants.",
+            "alignment": [
+                "any"
+            ],
             "domains": [
                 "Trickery"
             ],
@@ -9791,6 +9842,12 @@
             "name": "Eterna",
             "title": "Goddess Of Immortality, Balm Against Death",
             "symbol": "Three waves or three circles or three dots on a plane field",
+            "alignment": [
+                "any"
+            ],
+            "domains": [
+                "Unknown"
+            ],
             "customProperties": {
                 "Domains": "Unknown"
             },
@@ -9803,6 +9860,12 @@
             "pantheon": "Titans",
             "name": "Vorgoth’grum",
             "title": "The Ancient Titan Of Decay, Godkiller",
+            "alignment": [
+                "any"
+            ],
+            "domains": [
+                "None"
+            ],
             "entries": [
                 "In nature, plants decay and become one with the soil. They fertilize the ground and new plants grow. Vorgoth is decay alone, a break in the cycle of life, true death. When Vorgoth destroys a being its spirit is cut from the cycle and consumed by the ancient horror.",
 
@@ -9816,6 +9879,12 @@
             "pantheon": "Titans",
             "name": "Hex'a'grum",
             "title": "The Ancient Titan Of Shadow Magic",
+            "alignment": [
+                "any"
+            ],
+            "domains": [
+                "None"
+            ],
             "entries": [
                 "Hex - To cast a spell, or bewitch.",
 
@@ -9833,6 +9902,12 @@
             "pantheon": "Titans",
             "name": "Carriba’grum",
             "title": "The Ancient Titan Of Cannibalism",
+            "alignment": [
+                "any"
+            ],
+            "domains": [
+                "None"
+            ],
             "entries": [
                 "Cannibalism is to eat the flesh of one’s own race. Cannibalism is reviled in most cultures because it alerts Carriba to your darkest hungers and desires. Carriba promises power to those that continue to eat and corrupts the spirit to become addicted to flesh.",
 
@@ -9846,6 +9921,12 @@
             "pantheon": "Titans",
             "name": "Miser’a’grum",
             "title": "The Ancient Titan Of Misery, Dark Places, Being Dragged Underground, Collapse, Cave Ins, and Avalanches",
+            "alignment": [
+                "any"
+            ],
+            "domains": [
+                "None"
+            ],
             "entries": [
                 "The ancient titan Miser’a’grum lives under the world in the Deep Below. Her true disciples are driders. She is the essence of being dragged down into the dark depths of the earth and killed… by a collapse or cave in, by an avalanche or other catastrophe. She also enjoys suffocating her prey."
             ]
@@ -9855,6 +9936,12 @@
             "pantheon": "Titans",
             "name": "Des'a'Grum",
             "title": "The Titan Of Poison And Pollution",
+            "alignment": [
+                "any"
+            ],
+            "domains": [
+                "None"
+            ],
             "entries": [
                 "The mortal enemy of Liisa, Des poisons and pollutes the world, making it barren and lifeless. Whether buried under lava, drowned in toxic gases, or frozen solid, Des’s power creates a land so hostile that nothing can survive. Some say the Badlands themselves were cursed by Des long ago.",
 
@@ -9866,6 +9953,12 @@
             "pantheon": "Titans",
             "name": "Anim’a’grum",
             "title": "The Ancient Titan Of Corrupted Souls, The Soul Collector",
+            "alignment": [
+                "any"
+            ],
+            "domains": [
+                "None"
+            ],
             "entries": [
                 "Anim’a’grum, commonly known as Animus, is a collector of souls. He seeks to extinguish life, and use those souls to act as agents to collect more.",
 
@@ -9879,6 +9972,12 @@
             "pantheon": "Titans",
             "name": "Aentroph'a'grum",
             "title": "The Ancient Titan Of Chaos And Change",
+            "alignment": [
+                "any"
+            ],
+            "domains": [
+                "None"
+            ],
             "entries": [
                 "Aentroph'a'grum views the world and its natural order as a mistake, especially civilization. He seeks to destroy everything and twist reality into a reflection of his own whims, similar to his domain on the Amalgoreal plane. He has few minions in the world that serve him knowingly, but many less intelligent beings may be duped by one of his extraplanar followers into carrying out his will. They work to destroy small parts of the world through sowing mistrust among allies, breaking down societies, and wanton destruction.",
 
