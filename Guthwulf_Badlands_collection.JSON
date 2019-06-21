@@ -2409,7 +2409,7 @@
                             "The peoples of Alt Walav live to the east of New Hope in what was the richest, mostly human, kingdom for several ages. Their chief god, Fekwen of the good deal, led to a complex mercantile system that emphasises profit and fairness. Complex taxation systems allowed the monarchy to leverage huge sums of money for their army and infrastructure. No kingdom had as many fully armoured knights (with unbreakable Hawkwood lances) as Alt Walav, nor as many castles.",
 
                             "A few generations ago the Queen’s throne was usurped by the adventurer Vrad Gormr. He beheaded her on the front steps of the palace and took the throne. Over the next three years there were a record number of beheadings at the kings very own hands, including 3 Jarls from Maladvan that tested him. The queen did not die due to powerful magic. She sought out the destroyer helm and created the demon infection. She was insane with a desire for revenge and the horde of infected spread far beyond Alt Walav.",
-                            
+
                             "Now the kingdom is in ruins. Communication and trade between cities is nearly impossible with the hordes roaming the countryside. Some cities are broken with only small clusters of non infected holding out while others have managed to keep the infection outside their walls. For them the trouble is maintaining rations and clean water."
                         ]
                     },
@@ -8588,6 +8588,896 @@
                     }
                 }
             ]
+        }
+    ],
+    "feat": [
+        {
+            "name": "The Memory of Wings",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "dragonborn"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You may manifest magical wings for a short period of time.",
+                {
+                    "type": "list",
+                    "items": [
+                        "If you are level 1-9, you may ignore falling damage. The wings manifest just in time to slow your fall and then fade.",
+                        "If you are level 10 to 20 you gain the above quality and you may use your movement as flight speed as long as at the end of your movement you land. The maximum height you can obtain is equal to your movement. Example: If you move 30 feet you could instead fly 30 feet height, 30 feet forward and then land. If you chose to dash those numbers change to 60 feet."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Dwarf Magic",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "dwarf"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You learn the magic of strength and stone. You learn one cantrip of your choice from the following list: Acid Splash, Blade Ward, Magic Stone, Mending, Primal Savagery, or Thunderclap. You also learn the Earth Tremor and Maximilians Earthen Grasp spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells."
+            ]
+        },
+        {
+            "name": "Critter Friend",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "gnome"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "Your friendship with animals mystically deepens. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain proficiency in the Animal Handling skill. If you're already proficient in it, your proficiency bonus is doubled for any check you make with it.",
+                        "You learn the Speak with Animals spell and can cast it at will, without expending a spell slot. You also learn the Animal Friendship spell, and you can cast it once with this feat, without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest. Wisdom is your spellcasting ability for these spells."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stalwart",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "human"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "Choose one of:",
+                {
+                    "type": "list",
+                    "items": [
+                        "Gain proficiency in shields",
+                        "If you have proficiency in light armour, gain proficiency in medium armour.",
+                        "If you have proficiency in medium armour, gain proficiency in heavy armour."
+                    ]
+                }
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "str",
+                            "dex",
+                            "con",
+                            "int",
+                            "wis",
+                            "cha"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Noble Blood",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "human",
+                            "subrace": "walavi"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "Gain a new skill you were not proficient in.",
+                        "Gain expertise in a skill you possess."
+                    ]
+                }
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "str",
+                            "dex",
+                            "con",
+                            "int",
+                            "wis",
+                            "cha"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Northerner",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "human",
+                            "subrace": "maldavani"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You gain an additional use of Human Determination but it must be used to help a non hostile creature within 30'. If the creature succeeds with its roll and you have already used your personal Human Determination it is instantly recharged."
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "str",
+                            "dex",
+                            "con",
+                            "int",
+                            "wis",
+                            "cha"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Agressive",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "orc"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "As a bonus action, you can move up to your speed toward a hostile creature that you can see."
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "str",
+                            "con"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Badlander",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "orc"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You gain proficiency in the Survival skill. If you already have proficiency, you gain Expertise in the skill instead, counting your proficiency bonus as doubled.",
+                "While traveling in the Badlands, but not the mountains, you and your allies travel at 1.5 times the normal rate."
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "str",
+                            "con"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Barbed Hide",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "tiefling"
+                        }
+                    ]
+                }
+            ],
+            "source": "Badlands",
+            "entries": [
+                "One of your ancestors was a barbed devil or other spiky fiend. Barbs protrude from your head. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "As a bonus action, you can cause small barbs to protrude all over your body or cause them to retract. At the start of each of your turns while the barbs are out, you deal 1d6 piercing damage to any creature grappling you or any creature {@condition grappled} by you.",
+                        "You gain proficiency in the {@skill Intimidation} skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it."
+                    ]
+                }
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "con",
+                            "cha"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Ripping Horns",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "warbreed"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You have way more horns than the normal warbreed and they cause gashes on creatures that you grapple.",
+                {
+                    "type": "list",
+                    "items": [
+                        "When you successfully grapple a creature you may deal 1d6 + Strength or Dexterity modifier piercing damage to them as part of the attack.",
+                        "On any turn where you begin the turn grappling a creature you may use your bonus action to deal 1d6 + Strength or Dexterity modifier piercing damage to them."
+                    ]
+                }
+            ],
+            "ability": {
+                "str": 1
+            }
+        },
+        {
+            "name": "Infernal Constitution",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "warbreed"
+                        }
+                    ]
+                }
+            ],
+            "source": "Badlands",
+            "entries": [
+                "Fiendish blood runs strong in you, unlocking a resilience akin to that possessed by some fiends. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You have resistance to cold and poison damage.",
+                        "You have advantage on saving throws against being {@condition poisoned}."
+                    ]
+                }
+            ],
+            "ability": {
+                "con": 1
+            }
+        },
+        {
+            "name": "Demon Magic",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "warbreed"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "Demonic blood runs strong in you. Choose one cantrip from the following list: Acid Splash, Chill Touch, Fire bolt, or Shocking Grasp. You also learn Cause Fear an Pyrotechnics, each of which you cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Intelligence is your spellcasting ability for all three spells."
+            ]
+        },
+        {
+            "name": "Gentle Giant",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "firbolg"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You tap into the magical connection your race has to nature. You learn one druid cantrip of your choice.",
+                "You also learn the Beast Bond and Warding Wind spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells."
+            ]
+        },
+        {
+            "name": "Blood of Giants",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "firbolg"
+                        },
+                        {
+                            "name": "krynn"
+                        },
+                        {
+                            "name": "goliath"
+                        },
+                        {
+                            "name": "loxodon"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You harness the giant blood in your veins and grow in size temporarily.",
+                {
+                    "type": "list",
+                    "items": [
+                        "As a bonus action you may cast the Enlarge/Reduce spell targetting yourself only using the Enlarge option. You do not need to maintain concentration for this version of the spell. You must complete a long rest before your may do this again."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Firbolg Magic",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "firbolg"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You manifest leathery wings, transforming into an urd. You gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid cantrip of your choice.",
+                        "You also learn the Longstrider and Pass without Trace spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Wisdom is your spellcasting ability for all three spells."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "You Sneaky Little...",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "goblin"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You are adept at avoiding danger at others expense. ",
+                {
+                    "type": "list",
+                    "items": [
+                        "When a creature you can see targets you with an attack, you choose a willing, non hostile creature within 5 feet of you. Using your reaction the two of you swap places, and the chosen creature becomes the target instead. "
+                    ]
+                }
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "dex",
+                            "con",
+                            "cha"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "I copy you...",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "goblin"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You have learned that copying those around you can be very beneficial.",
+                {
+                    "type": "list",
+                    "items": [
+                        "When a non hostile creature you can see makes an attack against a creature you can see with advantage you may do the same against the same creature once on your turn. The advantage is on your first attack and expires at the end of your turn.",
+                        "If a non hostile creature you can see makes a saving throw with advantage against an effect that you must also save against, you also roll with advantage.",
+                        "If a non hostile creature you can see makes an ability check with advantage that you must also make, attempting the same task, you may also roll with advantage. You must take a short rest before using this ability again."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mountaineer",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "goliath"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "From your time living in the mountains you have developed a resistance to the weather and an uncanny ability to traverse rocky terrain.",
+                {
+                    "type": "list",
+                    "items": [
+                        "In the mountains you suffer no penalties from difficult terrain.",
+                        "You gain resistance to cold damage.",
+                        "In mountainous conditions you have advantage to Atheltics checks to do with climbing, jumping or avoiding a fall by catching onto a ledge or similar."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Return the Favor",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "goliath"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "When you use your Stone's Endurance you mark the offending creature to return the favor. If you hit them with a melee weapon attack before the end of your next turn add the total number of hit points mitigated to the damage of the attack. If this reduces the creature to 0 hit points your Stone's Endurance is instantly refreshed."
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "str",
+                            "con"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Momentum",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "krynn"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You have learned how to channel your momentum into your attacks. If you move at least 20 feet in a straight line towards your target and then hit with a horn attack the target takes an additional 1d6 damage and must succeed on a strength saving throw (DC = 8 + you proficiency bonus+ your Strength modifier) or be knocked prone."
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "str",
+                            "con"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "The Herd",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "krynn"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "When traveling you increase the speed of your group by 50%.",
+                "Your bovine legs allow you to ignore any effect that reduces your movement to anything other than 0 for 10 minutes. You activate this ability as part of your movement. You must take a short or long rest before using this ability again. Examples movement impairing conditions that you ignore: penalty for getting up from prone, difficult terrain, plant growth movement reduction, ray of frost cantrip movement reduction."
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "str",
+                            "con"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Enlightenment",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "lizardfolk"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You have made peace with your savage nature and have gained some degree of enlightenment. You make all saving throws against fear or frightened effects with advantage."
+            ],
+            "ability": {
+                "con": 1,
+                "wis": 1
+            }
+        },
+        {
+            "name": "Cold Blooded",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "lizardfolk"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain resistance to Fire damage.",
+                        "You are unaffected by the extreme heat, and are immune to exhaustion cause by extreme heat.",
+                        "You have disadvantage to saving throws to avoid exhaustion due to extreme cold."
+                    ]
+                }
+            ],
+            "ability": {
+                "str": 1,
+                "dex": 1
+            }
+        },
+        {
+            "name": "Powerful Jaws",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "lizardfolk"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                {
+                    "type": "list",
+                    "items": [
+                        "When you successfully gain temporary hit points from using your Hungery Jaws ability you may elect to grapple the target creature as part of the attack.",
+                        "This special grapple uses your jaws and does not require a free hand.",
+                        "If you are in the water and your target does not possess a swim speed any attacks you make against them during this grapple are made with advantage.",
+                        "If you successfully reduce the creature to 0 hit points before this grapple ends your Hungry Jaws ability immediately refreshes."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Cat's Reflexes",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "tabaxi"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "Always aware, quick to react.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You can't be surprised while you are conscious.",
+                        "You do not take damage from a fall of 20' or less.",
+                        "Getting up from prone costs you 5' of movement instead of the normal amount."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Lion's Roar",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "tabaxi"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "As an action you let our a Lion's roar forcing each hostile creature within 30 feet of you to make a Wisdom saving throw (DC 8 + your proficiency bonus + your Charisma modifier). A target automatically succeeds on the save if it can't hear you or see you. On a failed save, a target becomes frightened for 1 minute. If the frightened target takes any damage, it can repeat the saving throw, ending the effect on itself on a success. You must take a short or long rest before you may use this ability again."
+            ],
+            "ability": {
+                "cha": 1
+            }
+        },
+        {
+            "name": "Panther's Leap",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "tabaxi"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "If you use your Feline Agility feature you also double your jumping distance and height.",
+                "Pounce. If you move at least 15' in a straight line and hit with a melee weapon attack with a one handed weapon you may as a bonus action immediately attack again with the same weapon."
+            ],
+            "ability": {
+                "dex": 1
+            }
+        },
+        {
+            "name": "Snake",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "yuan-ti"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You may transform into a Giant Poisonous Snake or a Constrictor Snake. The transformation lasts for an hour, or until you drop to 0 hit points or die. You assume the hit points of your new form. When you reverts to your normal form, you return to the number of hit points you had before you transformed. If you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. As long as the excess damage doesn't reduce you to 0 hit points, you aren't knocked unconscious. You are limited in the actions you can perform by the nature of your new form, and you can't speak, cast spells, or take any other action that requires hands or speech. You retain your Intelligence, Wisdom and Charisma while in this form. You do not retain your class features but you do retain your race features such as Magic Resistance."
+            ]
+        },
+        {
+            "name": "The Divine Within",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "yuan-ti"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "Your introspection has awakened your connection to one of the divines. You learn one cleric cantrip of your choice. You also learn Protection From Evil and Good and Calm Emotions spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Charisma is your spellcasting ability for all three spells."
+            ]
+        },
+        {
+            "name": "The Savage Within",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "yuan-ti"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You have turned away from introspection and meditation and have connected with your ancient predatory nature. Your Yuan-ti snake features become far more pronounced.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain advantage to any stealth rolls if you are not wearing heavy armour and if you do not move this turn.",
+                        "As a bonus action you can flick out your tongue and gain blindsight 10' until the end of your turn.",
+                        "You gain a swim speed equal to your normal movement."
+                    ]
+                }
+
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "str",
+                            "dex"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Loxodon Magic",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "loxodon"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "Your meditation practice has led to increased magical prowess.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You learn the Guidance cantrip and can cast it at will.",
+                        "You also learn the spells Sanctuary and Enhance Ability each of which you can cast once without expending a spell slot. You regain the ability to cast these spells after you finish a long rest and Wisdom is your spellcasting modifier."
+                    ]
+                }
+
+            ]
+        },
+        {
+            "name": "Grasping Trunk",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "loxodon"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You have practiced long and hard to ensure your trunk never lets go.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You have advantage on all grapple checks made with your trunk.",
+                        "When you have a creature grappled with your trunk you can use a bonus action to make a constrict attack with your trunk. Add your Constitution modifier and proficiency bonus to the attack roll for this attack. The attack deals 1d4 + CON of bludgeoning damage."
+                    ]
+                }
+
+            ]
+        },
+        {
+            "name": "Elemental Mastery",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "triton"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You have always felt a connection to the beasts your kind hunts. The elementals of the Endless Sea could not only be a foe, but a tool as well if treated with care.",
+                "You have advantage on any Persuasion (Charisma) checks made in Primordial."
+
+            ],
+            "ability": {
+                "cha": 1
+            }
+        },
+        {
+            "name": "Watery Form",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "triton"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You have spent so long beneath the seas that your body has begun to take on the properties of the water that surrounded you. You gain resistance to poison damage."
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "str",
+                            "con"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Mastery of Water",
+            "source": "Badlands",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "triton"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "Your natural abilities to control the waves increase an extrordinary amount. As long as there is a source of water with as much volume as a bucket or more, you may use your rection to call it to protect you and reduce the damage of a fire attack by half. You must take a short or long rest before you may use this ability again."
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "con",
+                            "cha"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
         }
     ]
 }
