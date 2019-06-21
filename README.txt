@@ -20,6 +20,6 @@ B) Loading by URL
 	5. Paste "https://raw.githubusercontent.com/beckswithspecks/badlands-homebrew/master/Guthwulf_Badlands_collection.JSON" into the box.
 	6. Press OK
 
-To look at the homebrew for races and backgrounds go to the desired section and deselect everything that isn't the baldands. All of the badlands homebrew will show up.
+To look at the homebrew for races, gods and backgrounds go to the desired section and deselect everything that isn't the badlands. All of the badlands homebrew will show up.
 
 To look at the homebrew for feats filtering by badlands only gives the homebrewed feats for The Badlands but not the feats that carried over from RAW such as elven accuracy or dark elf magic.
