@@ -1,0 +1,211 @@
+{
+    "_meta": {
+        "sources": [{
+            "json": "BadlandsPlaytest",
+            "abbreviation": "BLP",
+            "full": "The Badlands Playtest",
+            "authors": [
+                "guthwulf"
+            ],
+            "convertedBy": [
+                "beckswithspecks"
+            ],
+            "version": "1.0.0",
+            "url": "https://www.worldanvil.com/w/the-badlands-ncguthwulf",
+            "targetSchema": "1.0.0"
+        }],
+        "dateAdded": 0
+    },
+    "race": [
+        {
+            "name": "Su'ghar",
+            "source": "BadlandsPlaytest",
+            "size": "S",
+            "speed": {
+                "walk": 30,
+                "climb": 20
+            },
+            "darkvision": 60,
+            "ability": {
+                "wis": 1
+            },
+            "entries": [
+                {
+                    "name": "Age",
+                    "type": "entries",
+                    "entries": [
+                        "Su'ghar live an average of 75 years"
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Typical su'ghar are on average a little over 2 feet tall and weight around 25 pounds. Your size is small."
+                    ]
+                },
+                {
+                    "name": "Darkvision",
+                    "entries": [
+                        "Thanks to your large eyes, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Glide",
+                    "entries": [
+                        "The su’ghar is characterized by its gliding membrane which extends from its arms at the forearm to its legs below the knee. When you fall and aren't incapacitated, you can subtract up to 100 feet from the fall when calculating falling damage, and you can move up to 2 feet horizontally for every 1 foot you descend."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read, and write Common."
+                    ],
+                    "type": "entries"
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Alpha",
+                    "speed": {
+                        "walk": 35
+                    },
+                    "ability": {
+                        "str": 2
+                    },
+                    "entries": [
+                        {
+                            "name": "Brave",
+                            "entries": [
+                                "You have advantage on saving throws against Frighten effects."
+                            ],
+                            "type": "entries"
+                        },
+                        {
+                            "name": "Fleet of Foot",
+                            "entries": [
+                                "Your base walking speed increases to 35 feet."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                },
+                {
+                    "name": "Quickfoot",
+                    "ability": {
+                        "dex": 2
+                    },
+                    "entries": [
+                        {
+                            "name": "Naturally Stealthy",
+                            "entries": [
+                                "You can take the Hide action as a bonus action on each of your turns."
+                            ],
+                            "type": "entries"
+                        }
+                    ]
+                }
+            ],
+            "languageTags": [
+                "Common"
+            ]
+        }
+    ],
+    "feat": [
+        {
+            "name": "Strength of the Elders",
+            "source": "BadlandsPlaytest",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "su'ghar"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "The power of your ancient flying ancestors flows through you, propelling you to ever higher heights.",
+                {
+                    "type": "list",
+                    "items": [
+                        "When you make a running long jump you can flap your wings in the air to move 3 times further than normal",
+                        "If you are level 10 to 20 you may use your movement as flight speed as long as at the end of your movement you land. The maximum height you can obtain is equal to your movement. When using this ability you may not initiate a glide, you must land at the end of your movement."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Little Monster",
+            "source": "BadlandsPlaytest",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "su'ghar",
+                            "subrace": "alpha"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You are unusually fierce for a creature that is usually regarded as small and adorable.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You gain proficiency in the Intimidation skill. If you are already proficient in it double your proficiency bonus for any checks you make with it.",
+                        "When you gain the Frightened or Charmed condition you can use your reaction to make an intimidation check. If this check is equal to or higher than the DC of the effect that caused the condition you do not gain the condition. Once you use this ability, you can't use it again until you finish a short or long rest."
+                    ]
+                }
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "str",
+                            "wis"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Slippery Runt",
+            "source": "BadlandsPlaytest",
+            "prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "su'ghar",
+                            "subrace": "quickfoot"
+                        }
+                    ]
+                }
+            ],
+            "entries": [
+                "You are well practiced in the art of of getting into and out of places you shouldn't be.",
+                {
+                    "type": "list",
+                    "items": [
+                        "You have advantage on saving throws made to avoid the grappled or restrained condition.",
+                        "You have advantage on any {@skill Athletics} or {@skill Acrobatics} checks you make to escape or avoid being grappled or restrained."
+                    ]
+                }
+            ],
+            "ability": {
+                "choose": [
+                    {
+                        "from": [
+                            "dex",
+                            "wis"
+                        ],
+                        "amount": 1
+                    }
+                ]
+            }
+        }
+    ]
+}
